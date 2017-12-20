@@ -12,7 +12,6 @@
 
 namespace Konekt\Decimal\Tests;
 
-
 use Konekt\Decimal\Decimal;
 use PHPUnit\Framework\TestCase;
 
@@ -62,5 +61,4 @@ class MinMaxTest extends TestCase
             [[100, '1e5', 25], '100000'],
         ];
     }
-
 }

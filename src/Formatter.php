@@ -13,7 +13,6 @@
 
 namespace Konekt\Decimal;
 
-
 class Formatter
 {
     public $places;
@@ -76,5 +75,4 @@ class Formatter
 
         return $result;
     }
-
 }

@@ -12,7 +12,6 @@
 
 namespace Konekt\Decimal\Tests;
 
-
 use DivisionByZeroError;
 use Konekt\Decimal\Decimal;
 use PHPUnit\Framework\TestCase;
@@ -234,5 +233,4 @@ class OperationsTest extends TestCase
             ['6.22e23', [-1], '622000000000000000000001'],
         ];
     }
-
 }

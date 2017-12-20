@@ -12,7 +12,6 @@
 
 namespace Konekt\Decimal\Tests;
 
-
 use InvalidArgumentException;
 use Konekt\Decimal\Decimal;
 use PHPUnit\Framework\TestCase;
@@ -121,7 +120,7 @@ class CreateDecimalsTest extends TestCase
     }
 
 
-    function createWithValuesProvider()
+    public function createWithValuesProvider()
     {
         return [
             [50, '50'],
