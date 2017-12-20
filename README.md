@@ -4,7 +4,7 @@
 [![Packagist Stable Version](https://img.shields.io/packagist/v/konekt/decimal.svg?style=flat-square&label=stable)](https://packagist.org/packages/konekt/decimal)
 [![Packagist Dev Version](https://img.shields.io/packagist/vpre/konekt/decimal.svg?style=flat-square&label=dev)](https://packagist.org/packages/konekt/decimal)
 [![Packagist downloads](https://img.shields.io/packagist/dt/konekt/decimal.svg?style=flat-square)](https://packagist.org/packages/konekt/decimal)
-[![StyleCI](https://styleci.io/repos/60036504/shield?branch=master)](https://styleci.io/repos/60036504)
+[![StyleCI](https://styleci.io/repos/114921055/shield?branch=master)](https://styleci.io/repos/114921055)
 [![MIT Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ## PHP Decimal Class
