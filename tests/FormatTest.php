@@ -12,7 +12,6 @@
 
 namespace Konekt\Decimal\Tests;
 
-
 use Konekt\Decimal\Decimal;
 use Konekt\Decimal\Formatter;
 use PHPUnit\Framework\TestCase;
@@ -97,6 +96,4 @@ class FormatTest extends TestCase
             ['-1e-10', [9], '-0.000000000'],
         ];
     }
-
-
 }

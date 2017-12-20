@@ -12,7 +12,6 @@
 
 namespace Konekt\Decimal\Tests;
 
-
 use Konekt\Decimal\Decimal;
 use PHPUnit\Framework\TestCase;
 
@@ -72,5 +71,4 @@ class ScaleTest extends TestCase
             ['1000', '0.001', 0, 0],
         ];
     }
-
 }

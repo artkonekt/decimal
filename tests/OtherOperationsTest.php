@@ -12,7 +12,6 @@
 
 namespace Konekt\Decimal\Tests;
 
-
 use Konekt\Decimal\Decimal;
 use PHPUnit\Framework\TestCase;
 
@@ -38,7 +37,7 @@ class OtherOperationsTest extends TestCase
         $d = new Decimal;
 
         list($d->digits, $d->exponent, $d->negative) = $input;
-        $d = $d->compress();
+        $d                                           = $d->compress();
 
         $this->assertSame($expected, [$d->digits, $d->exponent, $d->negative]);
     }
@@ -135,5 +134,4 @@ class OtherOperationsTest extends TestCase
             ['1500', 3, '1500'],
         ];
     }
-
 }

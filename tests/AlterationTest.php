@@ -12,7 +12,6 @@
 
 namespace Konekt\Decimal\Tests;
 
-
 use Konekt\Decimal\Decimal;
 use PHPUnit\Framework\TestCase;
 
