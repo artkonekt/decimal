@@ -1,0 +1,31 @@
+{
+    "name": "konekt/decimal",
+    "description": "Library for overcoming PHP float rounding issues",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["decimal", "number", "konekt", "artkonekt"],
+    "support": {
+        "source": "https://github.com/artkonekt/decimal"
+    },
+    "authors": [
+        {
+            "name": "Attila Fulop",
+            "homepage": "https://github.com/fulopattila122"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-bcmath": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": { "Konekt\\Decimal\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Konekt\\Decimal\\Tests\\": "tests/"
+        }
+    }
+}
